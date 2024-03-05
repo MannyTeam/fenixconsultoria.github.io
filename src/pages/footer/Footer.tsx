@@ -4,6 +4,7 @@ import { FooterContainer, FooterText, FooterMobile, SocialMediaContainer } from 
 import { MDBIcon } from 'mdb-react-ui-kit';
 
 export const Footer = () => {
+
     return (
         <FooterContainer>
           <Container>
@@ -43,7 +44,10 @@ export const Footer = () => {
             </Row>
             <Row className='justify-content-md-center'>
               <Col xs lg="3">
-                <FooterText><span style={{ fontWeight: 'bold' }}>  Designed by Quantum Digit </span> <span  style={{fontSize: '18px', color:'#08A2D8'}}> https://quantum3digit.com </span> </FooterText>
+                <FooterText>
+                  <span style={{ fontWeight: 'bold' }}>  Designed by Quantum Digit </span> 
+                     <a style={{fontSize: '18px', color:'#000'}} href="https://quantum3digit.com/" target='_blank' rel="noreferrer noopener">quantum3digit.com</a> 
+                    </FooterText>
               </Col>
             </Row>
           </Container>
