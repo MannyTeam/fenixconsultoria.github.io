@@ -18,11 +18,29 @@ export const Footer = () => {
             </Row>
             <Row>
             <Col xs={12} className="text-md-end">
-                  <SocialMediaContainer>
+              <SocialMediaContainer>
+                <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://www.facebook.com/fenixcons/"
+                  >
                       <MDBIcon fab icon="facebook" />
+                  </a>
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://www.linkedin.com/in/urania-barahona-bb017212b/"
+                  >
                       <MDBIcon fab icon="linkedin" />
+                  </a>
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://wa.me/523326279248"
+                  >
                       <MDBIcon fab icon="whatsapp" />
-                  </SocialMediaContainer>
+                  </a>
+              </SocialMediaContainer>
             </Col>
             </Row>
             <Row>

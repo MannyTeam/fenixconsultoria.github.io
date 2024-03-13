@@ -1,4 +1,4 @@
-import { Container, Card, Row, Col, CardText  } from "react-bootstrap";
+import { Container, Card, Row, Col  } from "react-bootstrap";
 import FotoUrania from '../../assets/Foto_Urania.jpeg';
 import { ButtonIconStyled, CardHeaderStyled, CardOwnerStyled, CardTitleStyled, ImageSyled } from "./aboutUs.styles";
 import { URANIA_PROFILE, URANIA_PROFILE_EXPERIENCE } from "../../constants/Constants";
