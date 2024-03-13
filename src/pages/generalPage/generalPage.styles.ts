@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const GeneralStyled =  styled.div`
 
-    margin-top: 68px;
+    margin-top: 80px;
 
     @media (min-width: 768px)
     {
@@ -23,10 +23,18 @@ export const IconStyled = styled.i `
 `;
 
 export const CentralCard = styled(Card)`
-    margin: 200px 160px 60px 60px;
     background: linear-gradient(to right, #6A3E7F, white);
     padding: 15px 15px 15px 15px;
     border-radius: 20px;
+    @media (min-width: 768px)
+    {
+      margin: 138px 160px 60px 60px;
+    }
+`;
 
+export const ProceduresList = styled.ul`
+  li {
+    padding-bottom: 10px;
+  }
 `;
 

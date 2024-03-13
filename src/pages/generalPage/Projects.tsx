@@ -9,17 +9,19 @@ export const Projects = () => {
     return (
         <Container> 
             <GeneralStyled>
-                <GeneralCard
-                    icon='fa fa-book'
-                    title='Proyectos' 
-                    text={projects_Text1}
-                />
-                <Row className='g-0'>
-                    <Col md='3'>
+                <Row>
+                    <GeneralCard
+                        icon='fa fa-book'
+                        title='Proyectos' 
+                        text={projects_Text1}
+                    />
+                </Row>
+                <Row>
+                    <Col >
                     <IconStyled className="fa fa-archive" aria-hidden="true"/>
                     </Col>
                     <Col md='8'>
-                    <Card.Body>
+                    <Card.Body style={{ padding: '0px', paddingTop: '10px' }}>
                         <Card.Text>
                             <strong>1).-</strong>
                             {projects_bullet1}

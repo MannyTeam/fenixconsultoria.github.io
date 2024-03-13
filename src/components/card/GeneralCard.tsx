@@ -16,8 +16,8 @@ export const GeneralCard = ({icon, title, text}: GeneralCardProps) => {
                     <Col md='3'>
                     <IconStyled className={icon} aria-hidden="true"/>
                     </Col>
-                    <Col md='8'>
-                    <Card.Body>
+                    <Col >
+                    <Card.Body style={{padding: 0, paddingTop: '10px'}}>
                         <Card.Title>{title}</Card.Title>
                         <Card.Text>
                             {text}

@@ -3,6 +3,7 @@ import FotoUrania from '../../assets/Foto_Urania.jpeg';
 import { ButtonIconStyled, CardHeaderStyled, CardOwnerStyled, CardTitleStyled, ImageSyled } from "./aboutUs.styles";
 import { URANIA_PROFILE, URANIA_PROFILE_EXPERIENCE } from "../../constants/Constants";
 import { MDBIcon } from "mdb-react-ui-kit";
+import { CenterItemStyled } from "../../components/item/centerItem.styles";
 
 export const UraniaProfile = () => {
     return (
@@ -11,19 +12,20 @@ export const UraniaProfile = () => {
                 <CardHeaderStyled>Equipo</CardHeaderStyled>
                     <Card.Body>
                         <Row>
-                            <Col xs={6} md={4}>
+                            <CenterItemStyled >
                                 <ImageSyled
                                     src={FotoUrania}
                                 />
-                            </Col>
+                            </CenterItemStyled>
                             <Col xs={12} md={8}>
                                 <CardTitleStyled>Urania Garduño Barahona</CardTitleStyled>
-                                <Card.Text>
+                                <Card.Text style={{ textAlign: 'justify' }}>
                                     {URANIA_PROFILE}
                                 </Card.Text>
-                                <Card.Text>
+                                <Card.Text style={{ textAlign: 'justify' }}>
                                     {URANIA_PROFILE_EXPERIENCE}
                                 </Card.Text>
+                                <CenterItemStyled>
                                 <ButtonIconStyled 
                                         size="sm"
                                         floating
@@ -54,6 +56,7 @@ export const UraniaProfile = () => {
                                     >
                                         <MDBIcon fab icon='linkedin-in' /> Linkedin
                                     </ButtonIconStyled>
+                                    </CenterItemStyled>
                             </Col>
                         </Row>
                     </Card.Body>

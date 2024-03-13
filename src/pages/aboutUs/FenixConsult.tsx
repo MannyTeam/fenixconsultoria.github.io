@@ -1,6 +1,7 @@
 import { Container, Row, Col  } from "react-bootstrap";
 import { CardStyled, IframeStyled, CardTitleStyled } from "./aboutUs.styles";
 import { MAIN_DESCRIPTION_1, MAIN_DESCRIPTION_2 } from "../../constants/Constants";
+import { CenterItemStyled } from "../../components/item/centerItem.styles";
 
 export const FenixConsult = () => {
     return (
@@ -16,14 +17,14 @@ export const FenixConsult = () => {
                             {MAIN_DESCRIPTION_2}
                         </p>
                     </Col>
-                    <Col md={6}>
+                    <CenterItemStyled md={6}>
                         <IframeStyled 
                             src="https://www.youtube.com/embed/kznYaFhrhus?si=BdpABx8mTgicg_bT" 
                             title="YouTube video player" 
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                             allowFullScreen>
                         </IframeStyled>
-                    </Col>
+                    </CenterItemStyled>
                 </Row>
             </CardStyled>
         </Container>

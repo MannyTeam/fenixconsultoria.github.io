@@ -82,12 +82,12 @@ export const SimpleCardTextStyled = styled.h6`
 
 
 export const GeneralCardStyled = styled.div`
-    max-width: 80%;
+    max-width: 100%;
 
     @media (min-width: 1200px){
         display: flex;
         width: 100%;
-        justify-content: flex-end;
+        
     }
 `;
 

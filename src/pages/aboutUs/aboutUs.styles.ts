@@ -34,7 +34,6 @@ export const IframeStyled = styled.iframe`
     border-radius: 12px;
     width: 460px;
     height: 185px;
-    margin-left: 15px;
 
     @media (max-width: 768px)
     {
@@ -51,14 +50,14 @@ export const CardHeaderStyled = styled(Card.Header)`
 `;
 
 export const CardTitleStyled = styled(Card.Title)`
-    text-align: start;
+    text-align: center;
     color: #2b4a63;
     font-weight: bold;
-    margin-left: 20px;
+
 
     h1 {
         font-weight: bold;
-        text-align: start;
+        text-align: center;
         color: #2b4a63;
     }
 `;
@@ -71,7 +70,7 @@ export const ImageSyled = styled(Image)`
     border-radius: 60%;
     height: 280px;
     width: 200px;
-    margin: 10px 10px 10px 55px;
+    margin: 10px 0px 10px 0px;
 `;
 
 export const ButtonIconStyled = styled(MDBBtn)`
