@@ -20,12 +20,16 @@ export const Information = () => {
             <Col xs={12} md={4} className="text-md-end">
                 <SocialMediaContainer>
                     <a
-                    href="https://www.facebook.com/fenixcons/"
+                      target="_blank"
+                      rel="noreferrer"
+                      href="https://www.facebook.com/fenixcons/"
                     >
                         <MDBIcon fab icon="facebook" />
                     </a>
                     <a
-                    href="https://www.linkedin.com/in/urania-barahona-bb017212b/"
+                      target="_blank"
+                      rel="noreferrer"
+                      href="https://www.linkedin.com/in/urania-barahona-bb017212b/"
                     >
                         <MDBIcon fab icon="linkedin" />
                     </a>
