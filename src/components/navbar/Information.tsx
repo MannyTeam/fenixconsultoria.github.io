@@ -1,4 +1,4 @@
-import { Col, Row } from "react-bootstrap";
+import { Col } from "react-bootstrap";
 import { DataContainer, InformationRow, SocialMediaContainer } from "./navBar.styles";
 import { MDBIcon } from "mdb-react-ui-kit";
 
@@ -19,9 +19,23 @@ export const Information = () => {
             </Col>
             <Col xs={12} md={4} className="text-md-end">
                 <SocialMediaContainer>
-                    <MDBIcon fab icon="facebook" />
-                    <MDBIcon fab icon="linkedin" />
-                    <MDBIcon fab icon="whatsapp" />
+                    <a
+                    href="https://www.facebook.com/fenixcons/"
+                    >
+                        <MDBIcon fab icon="facebook" />
+                    </a>
+                    <a
+                    href="https://www.linkedin.com/in/urania-barahona-bb017212b/"
+                    >
+                        <MDBIcon fab icon="linkedin" />
+                    </a>
+                    <a
+                      target="_blank"
+                      rel="noreferrer"
+                      href="https://wa.me/523326279248"
+                    >
+                        <MDBIcon fab icon="whatsapp" />
+                    </a>
                 </SocialMediaContainer>
             </Col>
         </InformationRow>
