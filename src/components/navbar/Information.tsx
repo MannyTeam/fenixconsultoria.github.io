@@ -36,7 +36,7 @@ export const Information = () => {
                     <a
                       target="_blank"
                       rel="noreferrer"
-                      href="https://wa.me/523326279248"
+                      href="https://wa.me/5211741245"
                     >
                         <MDBIcon fab icon="whatsapp" />
                     </a>

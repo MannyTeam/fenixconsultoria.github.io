@@ -36,7 +36,7 @@ export const Footer = () => {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://wa.me/523326279248"
+                    href="https://wa.me/523311741245"
                   >
                       <MDBIcon fab icon="whatsapp" />
                   </a>
