@@ -12,9 +12,9 @@ export const Information = () => {
                     info@fenixconsultoria.com.mx
                 </a>
                 <MDBIcon fas icon="mobile-alt" />
-                (33) 2734-5701
+                (33) 15 36 96 72
                 <MDBIcon fab icon="whatsapp" />
-                (33) 1174-1245
+                (33) 1173-1245
             </DataContainer>
             </Col>
             <Col xs={12} md={4} className="text-md-end">
