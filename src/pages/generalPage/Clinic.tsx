@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Card, Image } from 'react-bootstrap';
+import { Container, Row, Col, Card } from 'react-bootstrap';
 import { GeneralStyled, ImageStyledProjects, ProceduresList } from './generalPage.styles';
 import { CLINIC_BULLET1, CLINIC_BULLET2, CLINIC_BULLET3, CLINIC_SERVICES, CLINIC_SUBBULLET1, CLINIC_SUBBULLET2 } from '../../constants/Constants';
 import icon1 from '../../assets/IND_FARMACEUTICA_Y_DISPO_MEDICOS_4.png';
