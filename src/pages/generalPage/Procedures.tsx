@@ -1,17 +1,19 @@
 import React from 'react';
-import { Container, Row, Col, Card } from 'react-bootstrap';
-import { CentralCard, GeneralStyled, IconStyled, ProceduresList } from './generalPage.styles';
+import { Container, Row, Col, Card, Image } from 'react-bootstrap';
+import { CentralCard, GeneralStyled, IconStyled, ImageStyled, ProceduresList } from './generalPage.styles';
 import {
-    procedures_title,
-    procedures_bullet1,
-    procedures_bullet2,
-    procedures_bullet3,
-    procedures_bullet4,
-    procedures_bullet5,
-    procedures_bullet6,
-    procedures_bullet7,
-    procedures_bullet8,
+    PROCEDURES_TITLE,
+    PROCEDURES_BULLET1,
+    PROCEDURES_BULLET2,
+    PROCEDURES_BULLET3,
+    PROCEDURES_BULLET4,
+    PROCEDURES_BULLET5,
+    PROCEDURES_BULLET6,
+    PROCEDURES_BULLET7,
+    PROCEDURES_BULLET8,
 } from '../../constants/Constants';
+//import icon from '../../assets/Foto_Urania.jpeg';
+import icon from '../../assets/ASESORÍA_4.png';
 
 export const Procedures = () => {
     return(
@@ -19,24 +21,26 @@ export const Procedures = () => {
             <GeneralStyled>
                 <CentralCard>
                     <h1> Trámites </h1>
-                    <p>{procedures_title}</p>
+                    <p>{PROCEDURES_TITLE}</p>
                 </CentralCard>
                 <Row className='g-0'>
                     <Col md='3' >
-                        <IconStyled  className="fa fa-book" aria-hidden="true"/>
+                        <ImageStyled
+                            src={icon}
+                        />
                     </Col>
                     <Col md='8'>
                     <Card.Body style={{ padding: '0px', paddingTop: '10px' }}>
                         <Card.Text>
                             <ProceduresList>
-                                <li>{procedures_bullet1}</li>
-                                <li>{procedures_bullet2}</li>
-                                <li>{procedures_bullet3}</li>
-                                <li>{procedures_bullet4}</li>
-                                <li>{procedures_bullet5}</li>
-                                <li>{procedures_bullet6}</li>
-                                <li>{procedures_bullet7}</li>
-                                <li>{procedures_bullet8}</li>
+                                <li>{PROCEDURES_BULLET1}</li>
+                                <li>{PROCEDURES_BULLET2}</li>
+                                <li>{PROCEDURES_BULLET3}</li>
+                                <li>{PROCEDURES_BULLET4}</li>
+                                <li>{PROCEDURES_BULLET5}</li>
+                                <li>{PROCEDURES_BULLET6}</li>
+                                <li>{PROCEDURES_BULLET7}</li>
+                                <li>{PROCEDURES_BULLET8}</li>
                             </ProceduresList>
                         </Card.Text>
                     </Card.Body>

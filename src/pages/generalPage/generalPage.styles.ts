@@ -1,4 +1,4 @@
-import { Card } from "react-bootstrap";
+import { Card, Image, Col } from "react-bootstrap";
 import styled from "styled-components";
 
 export const GeneralStyled =  styled.div`
@@ -37,4 +37,20 @@ export const ProceduresList = styled.ul`
     padding-bottom: 10px;
   }
 `;
+
+export const ImageStyled = styled(Image)`
+    height: 200px;
+    width: 200px;
+    margin: 50px 0px 80px 70px;
+`;
+
+export const ImageStyledProjects = styled(Image)`
+    height: 280px;
+    width: 300px;
+    margin: 10px 0px 20px 50px;
+    display: flex;
+    justify-content: center;
+
+`;
+
 

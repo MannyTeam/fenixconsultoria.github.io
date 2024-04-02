@@ -1,8 +1,9 @@
 import React from "react";
 import { Container, Row, Col, Card } from 'react-bootstrap';
-import { GeneralCard } from "../../components/card/GeneralCard";
-import { TEXT, projects_Text1, projects_bullet1, projects_bullet2, projects_bullet3, projects_bullet4, projects_bullet5 } from "../../constants/Constants";
-import { GeneralStyled, IconStyled } from "./generalPage.styles";
+import { PROJECTS_TEXT1, PROJECTS_BULLET1, PROJECTS_BULLET2, PROJECTS_BULLET3, PROJECTS_BULLET4, PROJECTS_BULLET5 } from "../../constants/Constants";
+import { GeneralStyled, ImageStyledProjects } from "./generalPage.styles";
+import icon1 from '../../assets/ANÁLISIS_DOCS_2A.png';
+import icon2 from '../../assets/MODELO_DE_NEGOCIO_4A.png';
 
 
 export const Projects = () => {
@@ -10,37 +11,50 @@ export const Projects = () => {
         <Container> 
             <GeneralStyled>
                 <Row>
-                    <GeneralCard
-                        icon='fa fa-book'
-                        title='Proyectos' 
-                        text={projects_Text1}
-                    />
+                    <Col md='4'>
+                        <ImageStyledProjects
+                                src={icon1}
+                                style={{height: '200px', width: '200px', marginBottom: '10px', marginLeft: '70px'}}
+                            />
+                    </Col>
+                    <Col md='8'>
+                        <Card.Body>
+                            <Card.Text style={{margin:'60px 30px 10px 10px', fontSize:'18px'}}>
+                                <strong>
+                                    {PROJECTS_TEXT1}
+                                </strong>
+                            </Card.Text>
+                        </Card.Body>
+                    </Col>
                 </Row>
                 <Row>
                     <Col >
-                    <IconStyled className="fa fa-archive" aria-hidden="true"/>
+                    <ImageStyledProjects
+                            src={icon2}
+                            style={{marginTop: '80px', marginLeft: '40px'}}
+                        />
                     </Col>
                     <Col md='8'>
-                    <Card.Body style={{ padding: '0px', paddingTop: '10px' }}>
+                    <Card.Body style={{ padding: '0px', paddingLeft: '10px', marginTop: '80px'}}>
                         <Card.Text>
                             <strong>1).-</strong>
-                            {projects_bullet1}
+                            {PROJECTS_BULLET1}
                         </Card.Text>
                         <Card.Text>
                         <strong>2).-</strong>
-                            {projects_bullet2}
+                            {PROJECTS_BULLET2}
                         </Card.Text>
                         <Card.Text>
                         <strong>3).-</strong>
-                            {projects_bullet3}
+                            {PROJECTS_BULLET3}
                         </Card.Text>
                         <Card.Text>
                         <strong>4).-</strong>
-                            {projects_bullet4}
+                            {PROJECTS_BULLET4}
                         </Card.Text>
                         <Card.Text>
                         <strong>5).-</strong>
-                            {projects_bullet5}
+                            {PROJECTS_BULLET5}
                         </Card.Text>
                     </Card.Body>
                     </Col>

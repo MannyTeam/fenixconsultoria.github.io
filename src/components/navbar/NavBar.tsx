@@ -52,8 +52,18 @@ export const NavBar = () => {
                   closeNavbar={handleNavLinkClick}
                 />
                 <NavLinkComponent
-                  text='Seminarios, Cursos y Talleres'
+                  text='Capacitacion'
                   route='seminars'
+                  closeNavbar={handleNavLinkClick}
+                />
+                 <NavLinkComponent
+                  text='División análitica'
+                  route='analytics'
+                  closeNavbar={handleNavLinkClick}
+                />
+                <NavLinkComponent
+                  text='División clinica'
+                  route='clinic'
                   closeNavbar={handleNavLinkClick}
                 />
             </NavDropdownStyled>

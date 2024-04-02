@@ -68,7 +68,7 @@ export const Footer = () => {
                     href="https://quantum3digit.com/" target='_blank' rel="noreferrer noopener">
                          Designed by Quantum Digit
                    <p>
-                  <span  style={{fontSize: '16px', color: 'rgb(86, 49, 103)', fontWeight:500}} > Click here for more info!  </span> 
+                  <span  style={{fontSize: '16px', color: 'rgb(86, 49, 103)', fontWeight:500}} > ¡Click here for more info!  </span> 
                    </p>
                       </a> 
                     </FooterText>

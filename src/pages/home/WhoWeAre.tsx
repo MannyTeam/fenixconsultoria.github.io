@@ -2,9 +2,10 @@ import { Container } from 'react-bootstrap';
 import { MainCard } from '../../components/card/MainCard';
 import {
     ABOUT_US,
+    ANALYTICS_DIVISION,
+    CLINIC_DIVISION,
     PROCEDURES_DIVISION,
     PROJECTS_DIVISION,
-    TECHNICAL_SCIENTIFIC_TRAN_DIVISION,
     TRAINING_DIVISION,
 } from '../../constants/Constants';
 import { SimpleCard } from '../../components/card/SimpleCard';
@@ -32,8 +33,13 @@ export const WhoWeAre = () => {
             />
             <SimpleCard
               icon='list-alt'
-              title='División de Traducciones Técnicos-Cientificas' 
-              text={TECHNICAL_SCIENTIFIC_TRAN_DIVISION}
+              title='Division análitica' 
+              text={ANALYTICS_DIVISION}
+            />
+            <SimpleCard
+              icon='list-alt'
+              title='Division clinica' 
+              text={CLINIC_DIVISION}
             />
             </SimpleCardContainer>
         </Container>

@@ -1,33 +1,30 @@
 import React from "react";
-import { Container } from "react-bootstrap";
-import { GeneralStyled } from "./generalPage.styles";
-import { GeneralCard } from "../../components/card/GeneralCard";
-import { TEXT } from "../../constants/Constants";
+import { Container, Row, Col, Card } from "react-bootstrap";
+import { GeneralStyled, ImageStyledProjects } from "./generalPage.styles";
+import { TRAINING } from "../../constants/Constants";
+import icon1 from '../../assets/APRENDIZAJE_3.png';
 
 export const Seminars = () => {
     return (
         <Container> 
             <GeneralStyled>
-                <GeneralCard
-                    icon='fa fa-book'
-                    title='Tramites' 
-                    text={TEXT}
-                />
-                <GeneralCard
-                    icon='fa fa-tag'
-                    title='Otros' 
-                    text={TEXT}
-                />
-                <GeneralCard
-                    icon='fa fa-university'
-                    title='Otros' 
-                    text={TEXT}
-                />
-                <GeneralCard
-                    icon='fa fa-user'
-                    title='Otros' 
-                    text={TEXT}
-                />
+            <Row>
+                <Col md='4'>
+                    <ImageStyledProjects
+                            src={icon1}
+                            style={{height: '250px', width: '250px', marginBottom: '30px', marginTop: '50px', marginLeft: '70px'}}
+                        />
+                </Col>
+                <Col md='8'>
+                    <Card.Body>
+                        <Card.Text style={{margin:'60px 30px 10px 10px', fontSize:'18px'}}>
+                            <strong>
+                                {TRAINING}
+                            </strong>
+                        </Card.Text>
+                    </Card.Body>
+                </Col>
+            </Row>
             </GeneralStyled>
         </Container>
         )

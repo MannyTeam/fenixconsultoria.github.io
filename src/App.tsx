@@ -10,6 +10,8 @@ import { Contact } from './pages/contact/Contact';
 import { Procedures } from './pages/generalPage/Procedures';
 import { Projects } from './pages/generalPage/Projects';
 import { Seminars } from './pages/generalPage/Seminars';
+import { Analytics } from './pages/generalPage/Analytics';
+import { Clinic } from './pages/generalPage/Clinic';
 
 export default function App() {
     return (
@@ -22,6 +24,8 @@ export default function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/seminars" element={<Seminars/>} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/analytics" element={<Analytics/>} />
+          <Route path="/clinic" element={<Clinic/>}  />
         </Routes>
         <Footer />
       </BrowserRouter>
