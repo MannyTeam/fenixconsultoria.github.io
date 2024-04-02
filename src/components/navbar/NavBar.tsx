@@ -62,7 +62,7 @@ export const NavBar = () => {
                   closeNavbar={handleNavLinkClick}
                 />
                 <NavLinkComponent
-                  text='División clinica'
+                  text='División clínica'
                   route='clinic'
                   closeNavbar={handleNavLinkClick}
                 />
