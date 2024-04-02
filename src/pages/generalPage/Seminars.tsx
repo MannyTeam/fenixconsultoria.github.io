@@ -12,12 +12,12 @@ export const Seminars = () => {
                 <Col md='4'>
                     <ImageStyledProjects
                             src={icon1}
-                            style={{height: '250px', width: '250px', marginBottom: '30px', marginTop: '50px', marginLeft: '70px'}}
+                            style={{height: '250px', width: '250px', marginBottom: '30px', marginTop: '50px'}}
                         />
                 </Col>
                 <Col md='8'>
                     <Card.Body>
-                        <Card.Text style={{margin:'60px 30px 10px 10px', fontSize:'18px'}}>
+                        <Card.Text style={{margin:'60px 0px 10px 0px', fontSize:'18px'}}>
                             <strong>
                                 {TRAINING}
                             </strong>

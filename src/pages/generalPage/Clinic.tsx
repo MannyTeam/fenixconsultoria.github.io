@@ -18,7 +18,7 @@ export const Clinic = () => {
                     </Col>
                     <Col md='8'>
                         <Card.Body>
-                            <Card.Text style={{margin:'60px 30px 10px 10px', fontSize:'18px'}}>
+                            <Card.Text style={{margin:'60px 0px 40px 0px', fontSize:'18px'}}>
                                 <strong>
                                     {CLINIC_SERVICES}
                                 </strong>

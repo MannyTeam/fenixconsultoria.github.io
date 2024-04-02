@@ -14,12 +14,12 @@ export const Projects = () => {
                     <Col md='4'>
                         <ImageStyledProjects
                                 src={icon1}
-                                style={{height: '200px', width: '200px', marginBottom: '10px', marginLeft: '70px'}}
+                                style={{height: '200px', width: '200px', marginBottom: '10px'}}
                             />
                     </Col>
                     <Col md='8'>
                         <Card.Body>
-                            <Card.Text style={{margin:'60px 30px 10px 10px', fontSize:'18px'}}>
+                            <Card.Text style={{margin:'60px 0px 10px 0px', fontSize:'18px'}}>
                                 <strong>
                                     {PROJECTS_TEXT1}
                                 </strong>
@@ -28,10 +28,10 @@ export const Projects = () => {
                     </Col>
                 </Row>
                 <Row>
-                    <Col >
+                    <Col  md='4'>
                     <ImageStyledProjects
                             src={icon2}
-                            style={{marginTop: '80px', marginLeft: '40px'}}
+                            style={{marginTop: '60px', marginLeft: '40px'}}
                         />
                     </Col>
                     <Col md='8'>

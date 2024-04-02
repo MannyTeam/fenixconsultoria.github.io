@@ -1,4 +1,4 @@
-import { Card, Image, Col } from "react-bootstrap";
+import { Card, Image } from "react-bootstrap";
 import styled from "styled-components";
 
 export const GeneralStyled =  styled.div`
@@ -51,6 +51,11 @@ export const ImageStyledProjects = styled(Image)`
     display: flex;
     justify-content: center;
 
+      @media (max-width: 600px)
+    {
+      margin: 0 auto;
+      margin-top: 10px;
+    }
 `;
 
 
