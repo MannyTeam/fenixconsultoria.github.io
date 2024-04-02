@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.dcd6f766.css",
-    "main.js": "/static/js/main.b3798c3a.js",
+    "main.js": "/static/js/main.535bcc79.js",
     "static/js/787.48fbf488.chunk.js": "/static/js/787.48fbf488.chunk.js",
     "static/media/course3.png": "/static/media/course3.232892a651eafa5f73c3.png",
     "static/media/fa-solid-900.svg": "/static/media/fa-solid-900.7a8b4f130182d19a2d7c.svg",
@@ -20,13 +20,13 @@
     "static/media/fa-brands-400.woff": "/static/media/fa-brands-400.2285773e6b4b172f07d9.woff",
     "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.1551f4f60c37af51121f.woff2",
     "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.d878b0a6a1144760244f.woff2",
-    "static/media/ASESORÍA_4.png": "/static/media/ASESORÍA_4.34620c993dbdf455a7a8.png",
+    "static/media/ASESORIA_4.png": "/static/media/ASESORIA_4.34620c993dbdf455a7a8.png",
     "static/media/IND_FARMACEUTICA_Y_DISPO_MEDICOS_4.png": "/static/media/IND_FARMACEUTICA_Y_DISPO_MEDICOS_4.3d8d219ec3ac39e61290.png",
-    "static/media/ACOMPAÑAMIENTO_4A.png": "/static/media/ACOMPAÑAMIENTO_4A.6d8519c23bcbe24a8344.png",
+    "static/media/ACOMPANIAMIENTO_4A.png": "/static/media/ACOMPANIAMIENTO_4A.6d8519c23bcbe24a8344.png",
     "static/media/MODELO_DE_NEGOCIO_4A.png": "/static/media/MODELO_DE_NEGOCIO_4A.3d07e5965ae0ad61c7a6.png",
     "static/media/fa-regular-400.eot": "/static/media/fa-regular-400.77206a6bb316fa0aded5.eot",
     "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.491974d108fe4002b2aa.ttf",
-    "static/media/ANÁLISIS_DOCS_2A.png": "/static/media/ANÁLISIS_DOCS_2A.36a4f2870789a4ebbd34.png",
+    "static/media/ANALISIS_DOCS_2A.png": "/static/media/ANALISIS_DOCS_2A.36a4f2870789a4ebbd34.png",
     "static/media/APRENDIZAJE_3.png": "/static/media/APRENDIZAJE_3.023805b1ac9008ef86d4.png",
     "static/media/APRENDIZAJE_2A.png": "/static/media/APRENDIZAJE_2A.5ec89380c81c339fc675.png",
     "static/media/fa-regular-400.woff": "/static/media/fa-regular-400.bb58e57c48a3e911f15f.woff",
@@ -35,11 +35,11 @@
     "static/media/arrow_left.svg": "/static/media/arrow_left.db6e2d88c7c35a775ce4.svg",
     "static/media/arrow_right.svg": "/static/media/arrow_right.f7c6ac6d310d3b82f0a0.svg",
     "main.dcd6f766.css.map": "/static/css/main.dcd6f766.css.map",
-    "main.b3798c3a.js.map": "/static/js/main.b3798c3a.js.map",
+    "main.535bcc79.js.map": "/static/js/main.535bcc79.js.map",
     "787.48fbf488.chunk.js.map": "/static/js/787.48fbf488.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dcd6f766.css",
-    "static/js/main.b3798c3a.js"
+    "static/js/main.535bcc79.js"
   ]
 }
