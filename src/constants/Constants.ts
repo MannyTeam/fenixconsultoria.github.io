@@ -1,5 +1,5 @@
 export const ABOUT_US = `FÉNIX CONSULTORÍA, es una consultoría, cuya finalidad es brindarle asesoría y
-apoyo en el desarollo de  proyectos para la comercialización de isumos para la salud en México con base 
+apoyo en el desarollo de  proyectos para la comercialización de insumos para la salud en México con base 
 en la regulación sanitaria aplicable; buscando siempre cubrir las expectativas y necesidades de nuestros clientes.`;
 
 export const PROJECTS_DIVISION = `Brindamos asesoría y coordinación regulatoria de proyectos de emprendimiento de
@@ -16,7 +16,7 @@ export const TECHNICAL_SCIENTIFIC_TRAN_DIVISION = `Traducciones de inglés a esp
 técnico-científico para trámites regulatorios de cualquier tipo.`
 
 export const MAIN_DESCRIPTION_1 = `FÉNIX CONSULTORÍA, es una consultoría, cuya finalidad es brindarle asesoría y
-apoyo en el desarollo de  proyectos para la comercialización de isumos para la salud en México con base 
+apoyo en el desarollo de  proyectos para la comercialización de insumos para la salud en México con base 
 en la regulación sanitaria aplicable; buscando siempre cubrir las expectativas y necesidades de nuestros clientes.`;
 
 export const MAIN_DESCRIPTION_2 = `Nuestro equipo cuenta con una amplia experiencia en esta área por lo que 

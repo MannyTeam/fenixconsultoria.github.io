@@ -1,7 +1,7 @@
 import { Card } from 'react-bootstrap';
 import styled from 'styled-components';
 
-export const SectionTitle = styled.div`
+export const SectionTitleStyled = styled.div`
     text-align: center;
     padding-bottom: 30px;
     h2 {
@@ -17,8 +17,17 @@ export const SectionTitle = styled.div`
     }
 `;
 
-export const CardUploadImg = styled(Card.Img)`
-
+export const CardEventImg = styled(Card)`
+    width: 100%;
+    height: 500px;
     margin: 20px auto;
     cursor: pointer;
+`;
+
+export const CardImgStyled = styled(Card.Img)`
+    width: 80%;
+    height: 80%;
+    object-fit: fill;
+    margin: 0 auto;
+    margin-top: 20px;
 `;
