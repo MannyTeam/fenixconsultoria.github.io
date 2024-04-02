@@ -42,7 +42,7 @@ export const NavBar = () => {
             />
             <NavDropdownStyled title="Servicios" id="basic-nav-dropdown">
                 <NavLinkComponent 
-                  text='Tramites' 
+                  text='Trámites' 
                   route="procedures" 
                   closeNavbar={handleNavLinkClick}
                 />
@@ -52,7 +52,7 @@ export const NavBar = () => {
                   closeNavbar={handleNavLinkClick}
                 />
                 <NavLinkComponent
-                  text='Capacitacion'
+                  text='Capacitación'
                   route='seminars'
                   closeNavbar={handleNavLinkClick}
                 />

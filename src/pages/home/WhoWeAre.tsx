@@ -38,7 +38,7 @@ export const WhoWeAre = () => {
             />
             <SimpleCard
               icon='list-alt'
-              title='Division clinica' 
+              title='Division clínica' 
               text={CLINIC_DIVISION}
             />
             </SimpleCardContainer>
