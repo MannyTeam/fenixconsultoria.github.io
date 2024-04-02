@@ -33,12 +33,12 @@ export const WhoWeAre = () => {
             />
             <SimpleCard
               icon='list-alt'
-              title='Division análitica' 
+              title='División análitica' 
               text={ANALYTICS_DIVISION}
             />
             <SimpleCard
               icon='list-alt'
-              title='Division clínica' 
+              title='División clínica' 
               text={CLINIC_DIVISION}
             />
             </SimpleCardContainer>
