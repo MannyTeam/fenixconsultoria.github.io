@@ -42,6 +42,7 @@ export const Agenda = () => {
                     <CardImgStyled
                         variant="top"
                         src={course1}
+                        onClick={() => handleShow(course1)}
                     />
                     <div className="text-center mt-3 mb-3">
                         <StyledButton
@@ -57,6 +58,7 @@ export const Agenda = () => {
                         <CardImgStyled
                             variant="top"
                             src={course2}
+                            onClick={() => handleShow(course2)}
                         />
                         <div className="text-center mt-3 mb-3">
                           <StyledButton
@@ -72,6 +74,7 @@ export const Agenda = () => {
                     <CardImgStyled
                         variant="top"
                         src={course3}
+                        onClick={() => handleShow(course3)}
                     />
                     <div className="text-center mt-3 mb-3">
                         <StyledButton
@@ -87,6 +90,7 @@ export const Agenda = () => {
                     <CardImgStyled
                         variant="top"
                         src={course4}
+                        onClick={() => handleShow(course4)}
                     />
                     <div className="text-center mt-3 mb-3">
                         <StyledButton
