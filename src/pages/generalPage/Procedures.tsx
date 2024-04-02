@@ -13,7 +13,7 @@ import {
     PROCEDURES_BULLET8,
 } from '../../constants/Constants';
 //import icon from '../../assets/Foto_Urania.jpeg';
-import icon from '../../assets/ASESORÍA_4.png';
+import icon from '../../assets/ASESORIA_4.png';
 
 export const Procedures = () => {
     return(

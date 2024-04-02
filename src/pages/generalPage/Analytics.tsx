@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Card, Image } from 'react-bootstrap';
 import { GeneralStyled, ImageStyledProjects } from './generalPage.styles';
-import icon1 from '../../assets/ACOMPAÑAMIENTO_4A.png';
+import icon1 from '../../assets/ACOMPANIAMIENTO_4A.png';
 import { 
     ANALYTICS_SERVICES, 
     ANALYTICS_BULLET1,

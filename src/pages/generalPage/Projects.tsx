@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import { PROJECTS_TEXT1, PROJECTS_BULLET1, PROJECTS_BULLET2, PROJECTS_BULLET3, PROJECTS_BULLET4, PROJECTS_BULLET5 } from "../../constants/Constants";
 import { GeneralStyled, ImageStyledProjects } from "./generalPage.styles";
-import icon1 from '../../assets/ANÁLISIS_DOCS_2A.png';
+import icon1 from '../../assets/ANALISIS_DOCS_2A.png';
 import icon2 from '../../assets/MODELO_DE_NEGOCIO_4A.png';
 
 
