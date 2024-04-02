@@ -49,7 +49,7 @@ export const UraniaProfile = () => {
                                             maxWidth: '110.22px',
                                             maxHeight: '31.33px',
                                         }}
-                                        href='https://www.linkedin.com/in/urania-barahona-bb017212b/' 
+                                        href='https://www.linkedin.com/company/81524380/admin/feed/posts/' 
                                         target="_blank"
                                         rel="noreferrer"
                                         role='button'

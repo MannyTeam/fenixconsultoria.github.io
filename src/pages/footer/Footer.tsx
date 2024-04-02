@@ -63,8 +63,14 @@ export const Footer = () => {
             <Row className='justify-content-md-center'>
               <Col xs lg="3">
                 <FooterText>
-                  <span style={{ fontWeight: 'bold' }}>  Designed by Quantum Digit </span> 
-                     <a style={{fontSize: '18px', color:'#000'}} href="https://quantum3digit.com/" target='_blank' rel="noreferrer noopener">quantum3digit.com</a> 
+                  <a
+                    style={{color: '#000', fontWeight: 500}}
+                    href="https://quantum3digit.com/" target='_blank' rel="noreferrer noopener">
+                         Designed by Quantum Digit
+                   <p>
+                  <span  style={{fontSize: '16px', color: 'rgb(86, 49, 103)', fontWeight:500}} > Click here for more info!  </span> 
+                   </p>
+                      </a> 
                     </FooterText>
               </Col>
             </Row>
